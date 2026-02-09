@@ -15,8 +15,8 @@ apt-get install -y \
 apt-get install -y ros-noetic-teb-local-planner
 
 ```
-αφου αποθηκευσω το μαπ (κατι το οποιο δεν χρειαζεται δεν το χρησιμοποιουμε) κλεινω το terminal με το gmapping και τρεχω
 
+αφου αποθηκευσω το μαπ (κατι το οποιο δεν χρειαζεται δνε το χρησιμοποιοθμε υπαρει ηδη ενα καλο ετοιμο) κλεινω το gmaping στο τερμιναλ που ειναι και τρεχω εκει αυτο
 ```bash
 roslaunch talos_navigation move_base_teb.launch
 ```
