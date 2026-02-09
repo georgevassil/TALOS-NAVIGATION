@@ -12,4 +12,11 @@ apt-get install -y \
     ros-noetic-urdf-geometry-parser \
     ros-noetic-effort-controllers \
     ros-noetic-joint-state-controller
+apt-get install -y ros-noetic-teb-local-planner
+
+```
+αφου αποθηκευσω το μαπ (κατι το οποιο δεν χρειαζεται δεν το χρησιμοποιουμε) κλεινω το terminal με το gmapping και τρεχω
+
+```bash
+roslaunch talos_navigation move_base_teb.launch
 ```
